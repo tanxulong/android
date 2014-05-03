@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GraphExamples</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnPieChart">PieChart</string>
+    <string name="btnLineChart">LineChart</string>
+    <string name="btnHistogram">Histogram</string>
+    <string name="title_activity_graph">GraphActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
