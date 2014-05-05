@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 		DisplayMetrics displayMetrics = new DisplayMetrics();
 		getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
 		LinearLayout mLayout = (LinearLayout)findViewById(R.id.line);
-		ChartView view = new ChartView(this);
+		LineChart view = new LineChart(this);
 		
 		view.setDm(displayMetrics);
 		view.invalidate();
