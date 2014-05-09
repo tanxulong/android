@@ -3,5 +3,10 @@
 
     <string name="app_name">ChartPractise</string>
     <string name="action_settings">Settings</string>
+    <string name="menu1">Menu1</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="title_section1">Pie Chart</string>
+    <string name="title_section2">Line Chart</string>
+    <string name="title_section3">Histogram</string>
 
 </resources>

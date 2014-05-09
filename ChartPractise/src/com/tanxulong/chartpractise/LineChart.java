@@ -17,8 +17,8 @@ public class LineChart extends View {
 	private float top = 0; // seven days a week
 	private int deviceWidth = 0;
 	private int deviceHeight = 0;
-	private int xCount = 7; // seven days a week
-	private int yCount = 10; // 0~50C, 5/line
+	private int xCount = 6; // seven days a week
+	private int yCount = 9; // 0~50C, 5/line
 	// x,y 单位长度
 	private float xDistance = 0;
 	private float yDistance = 0;
@@ -26,7 +26,6 @@ public class LineChart extends View {
 	private Point pointMaxY = new Point();
 	private Point pointMaxX = new Point();
 	private Paint line1 = new Paint();
-	private Paint legend1 = new Paint(); // 图例
 
 	private int[] data1 = { 1, 2, 3, 4, 5, 6, 7 };
 	private int[] data2 = { 23, 33, 19, 22, 34, 28, 19 };
@@ -116,6 +115,7 @@ public class LineChart extends View {
 	private void drawGrid(Canvas canvas) {
 		Paint linePaint = new Paint();
 		Paint labelPaint = new Paint();
+		linePaint.setAntiAlias(true);
 		linePaint.setColor(Color.DKGRAY);
 		labelPaint.setColor(Color.DKGRAY);
 		labelPaint.setTextAlign(Align.CENTER);
